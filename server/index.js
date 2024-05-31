@@ -8,7 +8,7 @@ const {
     hashMessage,
     verifySignature,
 } = require("./helpers/utils");
-const port = 3042;
+const port = 3000;
 
 app.use(cors());
 app.use(express.json());
